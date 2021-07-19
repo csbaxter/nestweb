@@ -1,18 +1,13 @@
-# DVD Animation
+# Screen Saver
 
+Ths goal of this project is to use Scratch to create a screen saver similar to the one seen in this episode of The Office:
 
-Ths goal of this project is to create a screen saver similar to the one seen in this episode of The Office.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QOtuX0jL85Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QOtuX0jL85Y?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-But first we need to become familiar with drawing with `p5.js`.
 
 ## Getting Ready
-For this project you will `p5.js`, a JavaScript library that has a full set of drawing and animation tools. Note that in this lab there are separate `HTML` and `JavaScript` files. The `HTML` does nothing more than import the required p5 libararies as well as the JavaScript files you will create so that you can run your animations. You do not need to change the HTML at this point, all your programming will be done in your `sketch.js` file.
 
-
-A typical `p5.js` sketch starts with a p5 function, `setup()`. Instructions in the `setup()` function are run once when the program starts. It's used to define initial environment properties such as screen size and background color and to load media such as images and fonts as the program starts.
+<img src="https://github.com/csbaxter/web/blob/0cd9d5758f93e7a80922d58d00567445adf9611a/screensaver/bounce.gif" />
 
 ```javascript
 function setup() {
