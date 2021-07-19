@@ -21,7 +21,7 @@ Ths goal of this assignment is to use Scratch to create a screen saver similar t
   <li> You can add any other type of celebratory flourish for when the corner is reached.
 </ol>
 
-## Submitting
+### Submitting
 
 <p>Once finished with your project, save it to your computer as an .sb3 file.  Name the file your first initial + last name + "_screensaver.sb3", so if your name is Harry Potter then the file name will be "hpotter_screensaver.sb3".</p>
 <p>Upload your file to the following location: TBD</p>
