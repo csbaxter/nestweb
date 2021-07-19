@@ -1,95 +1,25 @@
 # Screen Saver
 
-Ths goal of this project is to use Scratch to create a screen saver similar to the one seen in this episode of The Office:
+Ths goal of this assignment is to use Scratch to create a screen saver similar to the one seen in this episode of The Office:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QOtuX0jL85Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Getting Ready
+## Reverse Engineering
+
+Your job is to observe the animation below and reverse engineer what you see.  The requirements for your screen saver are the following:
 
 <img src="https://github.com/csbaxter/web/blob/0cd9d5758f93e7a80922d58d00567445adf9611a/screensaver/bounce.gif" />
 
-```javascript
-function setup() {
-  createCanvas(600, 400)
-}
-```
+1) You must use Scratch to implement this.
+2) The moving object must be a square that bounces around the screen.
+3) The square must change colors when it touches the edge, you should have a minimum of four rotating colors.
+4) The square should have a text message on it, keep it to one or two words.  Something like "Let's Go"
+5) When the square goes *exactly* into the corner the square should stop moving and the text message should change to say something else, such as changing from "Let's Go" to "Wizards".
+6) You can add any other type of celebratory flourish for when the corner is reached.
 
-This will create your `canvas` as a rectangular area on your web page, with a width of 600 and a height of 400.
+## Submitting
 
-Another p5 function you will be using is `draw()`. The `draw()` function runs immediately after `setup()`, and it runs repeatedly, allowing for moving animation.  A single execution of the `draw()` function from top to bottom represents a single “frame” of an animation.  The number of times `draw()` executes in each second may be controlled with the `frameRate()` function. The default frame rate is 60 frames per second. There can only be one `draw()` function for each sketch. 
-
-```javascript
-function draw() {
-  // put your code for drawing here
-}
-```
-
-Here is a representation of pixels on a 400 x 400 canvas. Note that the y-axis is flipped compared to your math class!
-
-![canvas](https://raw.githubusercontent.com/cs50nestm/web/master/dvd/canvas.png)
-
-A few of the p5.js functions you will find useful include:
-1. `fill(color)` which sets the color that all subsequent shapes are filled with. For example, `fill(50)` fills shapes with grayscale, while `fill(204, 102, 0)` fills shapes with orange. [p5js.org fill() reference](https://p5js.org/reference/#/p5/fill)
-1. `ellipse(x, y, width, height)` draws an ellipse, specifying the coordinates (x,y) of the center, width, and height.  
-1. `rect(x, y, width, height)` draws a rectangle, specifying the coordinates (x,y) of the top left corner, width, and height. [Check out `rectMode()` here](https://p5js.org/reference/#/p5/rectMode).
-1. `triangle(x1, y1, x2, y2, x3, y3)` draws a triangle, specifying the coordinates of three vertices: (x1,y1), (x2,y2), and (x3,y3)
-
-More functions and details on these functions can be found at [https://p5js.org/reference](https://p5js.org/reference).
-
-
-## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
-
-1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-4. Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/dvd/dvd.zip` to download a (compressed) ZIP file with this problem’s distribution.
-5. Execute `unzip dvd.zip` to uncompress that file.
-6. Execute `rm dvd.zip` followed by `yes` or `y` to delete that ZIP file.
-7. Execute `ls`. You should see a directory called `dvd`, which was inside of that ZIP file.
-8. Execute `cd dvd` to change into that directory.
-9. Execute `ls`. You should see this problem’s distribution code, including `index.html`, `style.css` and `sketch.js`
-10. You can immediately start a server to view the site by typing
-
-```
-http-server
-```
-
-in the terminal window and clicking on `index.html`.
-
-
-
-## Specification
-
-1. Working in the file sketch.js, start by creating a rectangle and have it bounce off the sides of the screen.
-
-1. Have the rectangle change colors when bouncing off the side of a screen (this can be random, or a predetermined set of colors)
-
-1. Load the DVD logo into your sketch and replace the rectangle with this logo: [https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF)
-
-
-### Extension
-1. When the rectangle hits a corner of the screen, have it stop the animation and display some sort of celebratory gif or message on the screen.
-
-1. Have rectangle play a “boing” sound when it bounces off the side of a wall.
-
-## Hints
-
-More functions and details on these functions can be found at [https://p5js.org/reference](https://p5js.org/reference).
-
-## How to Submit
-
-Be sure to change directories in your terminal so that the submit50 can access your `sketch.js`, `style.css` and `index.html` files. 
-
-```
-cd dvd
-```
-
-To make sure you've done this correctly, type `ls` into your terminal, where you should see these two files.
-
-You may then submit by typing in at the command line:
-
-```
-submit50 cs50nestm/checks/2020/dvd
-```
+Once finished with your project, save it to your computer as an .sb3 file.  Name the file your first initial + last name + "_screensaver.sb3", so if your name is Harry Potter then "hpotter_screensaver.sb3".
 
 
