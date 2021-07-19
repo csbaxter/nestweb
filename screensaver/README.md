@@ -7,18 +7,19 @@ Ths goal of this assignment is to use Scratch to create a screen saver similar t
 
 ## Reverse Engineering
 
-Your job is to observe the animation below and reverse engineer what you see.  
+<p>Your job is to observe the animation below and reverse engineer what you see. </p> 
 
 <img src="csbaxter.github.io/web/screensaver/bounce.gif" />
 
-The requirements for your screen saver are the following:
-
-1) You must use Scratch to implement this.
-2) The moving object must be a square that bounces around the screen.
-3) The square must change colors when it touches the edge, you should have a minimum of four rotating colors.
-4) The square should have a text message on it, keep it to one or two words.  Something like "Let's Go"
-5) When the square goes *exactly* into the corner the square should stop moving and the text message should change to say something else, such as changing from "Let's Go" to "Wizards".
-6) You can add any other type of celebratory flourish for when the corner is reached.
+<p>The requirements for your screen saver are the following:</p>
+<ol>
+<li> You must use Scratch to implement this.
+<li> The moving object must be a square that bounces around the screen.
+<li> The square must change colors when it touches the edge, you should have a minimum of four rotating colors.
+<li> The square should have a text message on it, keep it to one or two words.  Something like "Let's Go"
+<li> When the square goes *exactly* into the corner the square should stop moving and the text message should change to say something else, such as changing from "Let's Go" to "Wizards".
+  </li> You can add any other type of celebratory flourish for when the corner is reached.
+</ol>
 
 ## Submitting
 
